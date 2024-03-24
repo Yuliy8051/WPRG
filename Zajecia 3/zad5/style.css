@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: grey;
+}
+div {
+    color: black;
+    height: 150px;
+    width: 150px;
+}
+h1 + div {
+    background-color: red;
+}
+div:last-child {
+    background-color: blue;
+}

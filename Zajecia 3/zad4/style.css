@@ -1,0 +1,16 @@
+div {
+    padding: 5px;
+    background-clip: content-box;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+p {
+    margin: 0;
+}
+div > p:last-child {
+    color: red;
+}
+p > span {
+    color: red;
+    font-size: smaller;
+}
