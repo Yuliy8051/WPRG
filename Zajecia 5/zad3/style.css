@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+}
+.equal-width {
+    text-align: center;
+    background-color: lightblue;
+    flex: auto;
+    margin: 5px;
+}
+.row2 {
+    display: flex;
+}
+.fixed-percentage {
+    margin-right: 5px;
+    width: 40%;
+    text-align: center;
+    background-color: lightblue;
+}
+.flexible {
+    flex: auto;
+    text-align: center;
+    background-color: lightblue;
+}
