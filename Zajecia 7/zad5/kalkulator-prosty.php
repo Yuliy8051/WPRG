@@ -13,5 +13,5 @@ switch ($_POST['operation']){
         $result = $_POST['num1'] / $_POST['num2'];
         break;
 }
-echo "{$_POST['num1']} + {$_POST['num2']} = $result";
+echo "{$_POST['num1']} {$_POST['operation']} {$_POST['num2']} = $result";
 ?>
