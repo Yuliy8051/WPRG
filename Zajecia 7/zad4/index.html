@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            display: flex;
+            justify-content: center;
+        }
+        label {
+            float: right;
+        }
+        table:last-child input{
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Imię:</label>
+                </td>
+                <td>
+                    <input type="text" name="name" id="name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="surname">Nazwisko:</label>  
+                </td>
+                <td>
+                    <input type="text" name="surname" id="surname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail">Adres email:</label>
+                </td>
+                <td>
+                    <input type="email" name="mail" id="mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Hasło:</label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password"required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password1">Potwirdź hasło:</label>
+                </td>
+                <td>
+                    <input type="password" name="password1" id="password1" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Wiek</label>
+                </td>
+                <td>
+                    <input type="number" name="age" id="age" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Zarejestruj się"></input>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

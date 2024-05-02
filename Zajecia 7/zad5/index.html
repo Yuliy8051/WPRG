@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator</title>
+    <style>
+        fieldset>input:last-child{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<form action="kalkulator-prosty.php" method="POST">
+    <fieldset>
+        <legend><h2>Kalkulator prosty</h2></legend>
+        <input type="number" name="num1" required>
+        <select name="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" name="num2" required>
+        <br>
+        <input type="submit" value="oblicz">
+    </fieldset>
+</form>
+<form action="kalkulator-zaawansowany.php" method="post">
+    <fieldset>
+        <legend><h2>Kalkulator zaawansowany</h2></legend>
+        <input type="text" name="num" required>
+        <select name="operation" >
+            <option value="cos">cos</option>
+            <option value="sin">sin</option>
+            <option value="tg">tg</option>
+            <option value="2:10">()&#8322; = ()&#8321;&#8320;</option>
+            <option value="10:2">()&#8321;&#8320; = ()&#8322;</option>
+            <option value="10:16">()&#8321;&#8320; = ()&#8321;&#8326;</option>
+            <option value="16:10">()&#8321;&#8326; = ()&#8321;&#8320;</option>
+        </select>
+        <br>
+        <input type="submit" value="oblicz">
+    </fieldset>
+</form>
+</body>
+</html>
